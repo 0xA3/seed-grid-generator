@@ -53,7 +53,7 @@ class UHEPRNG {
 		// be wonderful, it's useful for establishing large startup entropy for our usage.
 		var mash = Mash();		// get a pointer to our high-performance "Mash" hash
 
-		// for (i in 0...o) s[i] = mash( Math.random() );	// fill the array with initial mash hash values
+		for (i in 0...o) s[i] = mash( Math.random() );	// fill the array with initial mash hash values
 
 		// when our main outer "uheprng" function is called, after setting up our
 		// initial variables and entropic state, we return an "instance pointer"

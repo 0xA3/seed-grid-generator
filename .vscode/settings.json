@@ -1,0 +1,15 @@
+{
+	"haxeTestExplorer.testCommand": [
+		"${haxe}",
+		"test.hxml",
+		"-lib",
+		"test-adapter"
+	],
+	"haxeTestExplorer.launchConfiguration": "Debug",
+	"editor.codeActionsOnSave": {
+		"source.sortImports": "explicit"
+	},
+	// "haxe.enableCodeLens": true,
+	"liveServer.settings.root": "/dist/",
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "C:/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe"
+}

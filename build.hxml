@@ -1,7 +1,8 @@
 -lib hxnodejs
+-lib compiletime
 -cp src
 -D analyzer-optimize
 -D js-es=6
 -debug
 -main seedGridGenerator.Main
---js bin/app.js
+--js bin/seed_grid_generator.js
