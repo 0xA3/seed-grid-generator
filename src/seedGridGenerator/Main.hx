@@ -44,8 +44,9 @@ class Main {
 			final prng = UHEPRNG.create();
 			final direction = prng.random( 100 ) < 49 ? "h" : "v";
 			final index = '$i'.lpad( "0", 3 );
-			final offset = '${prng.random( 25 )}'.lpad( "0", 3 );
-			final path = '${BASE_NAME}_${index}_${direction}_$offset.txt';
+			final random1 = '${prng.random( 100 )}'.lpad( "0", 3 );
+			final random2 = '${prng.random( 100 )}'.lpad( "0", 3 );
+			final path = '${BASE_NAME}_${index}_${direction}_${random1}_${random2}.txt';
 			xa3.crossfile.sync.File.saveContent( path, contents[i] );
 			Sys.println( 'Writing $path' );
 		}
