@@ -9,7 +9,7 @@ using StringTools;
 class Main {
 	
 	static final BASE_NAME = "grid";
-	static final GRIDS = 10;
+	static final GRIDS = 100;
 	static final PAGES = 10;
 	static final LINES_PER_PAGE = 57;
 	static final NUMBERS_PER_LINE = 18;
